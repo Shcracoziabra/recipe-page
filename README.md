@@ -39,7 +39,7 @@ This challenge provided an experience of building plain responsive page. I tried
 ### What I learned
 
 With this challenge I gained an experience of adding custom fonts to my website. 
-Learned how to use pseudoelements `code`::before`code` and `code`::marker`code` to make the custom marker of a list item.
+Learned how to use pseudoelements `::before` and `::marker` to make the custom marker of a list item.
 
 ```css
 ul li {
