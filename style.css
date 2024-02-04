@@ -119,23 +119,19 @@ ul li::before {
 ol {
     margin: 10px 0 0 0;
     padding-left: 27px;
-    font-weight: 700;
-    color: var(--nutmeg)
 }
 
 ol li {
     position: relative;
     font-size: 16px;
     line-height: 135%;
-    padding: 6px 0 6px 16px
-}
-
-ol li span {
+    padding: 6px 0 6px 16px;
     color: var(--wenge-brown)
 }
 
-ol li span:not(:first-child) {
-    font-weight: 400
+ol li::marker{
+    color:  var(--nutmeg);
+    font-weight: 700; 
 }
 
 table {
